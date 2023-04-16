@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "05defaee-846e-4e09-b4e9-ac84d11bb7ab",
+		"name": "Office",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10365752"
+	},
+	"item": [
+		{
+			"name": "Update Salaries",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7146/api/offices/salaries-v1?officeId=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7146",
+					"path": [
+						"api",
+						"offices",
+						"salaries-v1"
+					],
+					"query": [
+						{
+							"key": "officeId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Salaries SQL",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7146/api/offices/salaries-v2?officeId=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7146",
+					"path": [
+						"api",
+						"offices",
+						"salaries-v2"
+					],
+					"query": [
+						{
+							"key": "officeId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Salaries SQL Dapper",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7146/api/offices/salaries-vdapper?officeId=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7146",
+					"path": [
+						"api",
+						"offices",
+						"salaries-vdapper"
+					],
+					"query": [
+						{
+							"key": "officeId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
